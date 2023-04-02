@@ -40,3 +40,22 @@ main {
     top: 50px;
     left: 22px;
 }
+
+#redes-sociais {
+    text-align: right;
+}
+
+#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #00000036;
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.635);
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 10px #00000036;
+    transition: transform 0.5s, border 0.1s;
+}
